@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-AppSpanish/Pods-AppSpanish-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FluentDarkModeKit/FluentDarkModeKit.framework
+${BUILT_PRODUCTS_DIR}/Localize-Swift/Localize_Swift.framework
+${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework
+${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework

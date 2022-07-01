@@ -1,0 +1,86 @@
+
+/* Class = "UILabel"; text = "Choose your\nlanguage"; ObjectID = "4Uf-yU-zoN"; */
+"Choose your\nlanguage" = "あなたの\n言語";
+
+/* Class = "UILabel"; text = "Select the language to get started."; ObjectID = "6ah-re-DeN"; */
+"Select the language to get started." = "開始する言語を選択してください.";
+
+/* Class = "UILabel"; text = "Other Settings"; ObjectID = "6nA-6F-jK3"; */
+"Other Settings" = "その他の設定";
+
+/* Class = "UILabel"; text = "Select a topic\nyou want to learn"; ObjectID = "AjJ-XI-Ub2"; */
+"Select a topic\nyou want to learn" = "学習したいトピックを\n選択してください";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "DPf-i1-sOc"; */
+"Settings" = "設定";
+
+/* Class = "UILabel"; text = "Welcome to Learn Spanish"; ObjectID = "DpD-GP-2Yd"; */
+"Welcome to Learn Spanish" = "スペイン語学習へようこそ";
+
+/* Class = "UILabel"; text = "Phrases"; ObjectID = "EU9-p4-DWV"; */
+"Phrases"= "フレーズ";
+
+/* Class = "UIButton"; normalTitle = "   Dark mode"; ObjectID = "FZe-CG-edA"; */
+"   Dark mode" = "   ダークモード";
+
+/* Class = "UILabel"; text = "Learn Spanish"; ObjectID = "HBJ-Wl-sn9"; */
+"Learn Spanish" = "スペイン語を学ぶ";
+
+/* Class = "UILabel"; text = "To start learning Spanish effectively!"; ObjectID = "JoN-0o-cd5"; */
+"To start learning Spanish effectively!" = "スペイン語を効果的に学び始めるために!";
+
+/* Class = "UIButton"; normalTitle = "   Rate this app"; ObjectID = "KrV-Sw-65W"; */
+"KrV-Sw-65W.normalTitle" = "   このアプリを評価する";
+
+/* Class = "UILabel"; text = "Hola!"; ObjectID = "ORH-cO-Vnf"; */
+"ORH-cO-Vnf.text" = "Hola!";
+
+/* Class = "UIButton"; normalTitle = "   Language"; ObjectID = "TVi-aw-pCt"; */
+"   Language"= "   言語";
+
+/* Class = "UILabel"; text = "Words"; ObjectID = "Vtu-JC-219"; */
+"Words" = "言葉";
+
+/* Class = "UIButton"; normalTitle = "   Bookmark words"; ObjectID = "bhq-TX-JBr"; */
+"   Bookmark words" = "   ブックマークの単語";
+
+/* Class = "UILabel"; text = "General"; ObjectID = "fbg-Mp-PFI"; */
+"General" = "一般";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "gQ1-C5-FjK"; */
+"Language"= "言語";
+
+/* Class = "UIButton"; normalTitle = "   Privacy policy"; ObjectID = "h9y-uf-hCP"; */
+"h9y-uf-hCP.normalTitle" = "   個人情報保護方針";
+
+/* Class = "UILabel"; text = "Learn Spanish"; ObjectID = "iSZ-PK-tSV"; */
+"Learn Spanish" = "スペイン語を学ぶ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jpu-kE-cTi"; */
+"jpu-kE-cTi.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "u1h-nz-XSf"; */
+"u1h-nz-XSf.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Let get started"; ObjectID = "uPc-Yi-Je6"; */
+"Let get started" = "始めましょう";
+
+/* Class = "UIButton"; normalTitle = "   About App"; ObjectID = "uea-fV-HDm"; */
+"   About App" = "   アプリについて";
+"Change language" = "言語を変えてください";
+"To changing language you need to restart application, do you want to restart?" = "言語を変更するには、アプリケーションを再起動する必要がありますが、再起動しますか？";
+"Search ?" = " 探す  ？";
+"Topic" = "トピック";
+"Accommodation" = "宿泊施設";
+
+"Chinese" = "中国語";
+"English"= "英語";
+"French"= "フランス語";
+"German"= "ドイツ人";
+"Itaian" = "イタリア語";
+"Japanise"= "ジャパニーズ";
+"Korean" = "韓国語";
+"Portuguese"= "ポルトガル語";
+"Russian"= "ロシア";
+"Turkish"= "トルコ語";
+"Bookmark words/phrases" = "単語/フレーズをブックマークする";

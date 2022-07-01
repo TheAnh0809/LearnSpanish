@@ -1,0 +1,74 @@
+
+/* Class = "UILabel"; text = "Choose your\nlanguage"; ObjectID = "4Uf-yU-zoN"; */
+"4Uf-yU-zoN.text" = "Escolha o seu\nidioma";
+
+/* Class = "UILabel"; text = "Select the language to get started."; ObjectID = "6ah-re-DeN"; */
+"6ah-re-DeN.text" = "Selecione o idioma para começar.";
+
+/* Class = "UILabel"; text = "Other Settings"; ObjectID = "6nA-6F-jK3"; */
+"6nA-6F-jK3.text" = "Outros ajustes";
+
+/* Class = "UILabel"; text = "Select a topic\nyou want to learn"; ObjectID = "AjJ-XI-Ub2"; */
+"AjJ-XI-Ub2.text" = "Selecione um tópico\nque deseja aprender";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "DPf-i1-sOc"; */
+"DPf-i1-sOc.text" = "Configurações";
+
+/* Class = "UILabel"; text = "Welcome to Learn Spanish"; ObjectID = "DpD-GP-2Yd"; */
+"DpD-GP-2Yd.text" = "Bem-vindo a aprender espanhol";
+
+/* Class = "UILabel"; text = "Phrases"; ObjectID = "EU9-p4-DWV"; */
+"EU9-p4-DWV.text" = "Frases";
+
+/* Class = "UIButton"; normalTitle = "   Dark mode"; ObjectID = "FZe-CG-edA"; */
+"FZe-CG-edA.normalTitle" = "   Modo escuro";
+
+/* Class = "UILabel"; text = "Learn Spanish"; ObjectID = "HBJ-Wl-sn9"; */
+"HBJ-Wl-sn9.text" = "Aprender espanhol";
+
+/* Class = "UILabel"; text = "To start learning Spanish effectively!"; ObjectID = "JoN-0o-cd5"; */
+"JoN-0o-cd5.text" = "Para começar a aprender espanhol de forma eficaz!";
+
+/* Class = "UIButton"; normalTitle = "   Rate this app"; ObjectID = "KrV-Sw-65W"; */
+"KrV-Sw-65W.normalTitle" = "   Avalie este aplicativo";
+
+/* Class = "UILabel"; text = "Hola!"; ObjectID = "ORH-cO-Vnf"; */
+"ORH-cO-Vnf.text" = "Hola!";
+
+/* Class = "UIButton"; normalTitle = "   Language"; ObjectID = "TVi-aw-pCt"; */
+"TVi-aw-pCt.normalTitle" = "   Língua";
+
+/* Class = "UILabel"; text = "Words"; ObjectID = "Vtu-JC-219"; */
+"Vtu-JC-219.text" = "Palavras";
+
+/* Class = "UIButton"; normalTitle = "   Bookmark words"; ObjectID = "bhq-TX-JBr"; */
+"bhq-TX-JBr.normalTitle" = "   Marcar palavras
+";
+
+/* Class = "UILabel"; text = "General"; ObjectID = "fbg-Mp-PFI"; */
+"fbg-Mp-PFI.text" = "Geral";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "gQ1-C5-FjK"; */
+"gQ1-C5-FjK.text" = "Língua";
+
+/* Class = "UIButton"; normalTitle = "   Privacy policy"; ObjectID = "h9y-uf-hCP"; */
+"h9y-uf-hCP.normalTitle" = "   Política de Privacidade
+";
+
+/* Class = "UILabel"; text = "Learn Spanish"; ObjectID = "iSZ-PK-tSV"; */
+"iSZ-PK-tSV.text" = "Aprender espanhol";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jpu-kE-cTi"; */
+"jpu-kE-cTi.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "u1h-nz-XSf"; */
+"u1h-nz-XSf.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Let get started"; ObjectID = "uPc-Yi-Je6"; */
+"uPc-Yi-Je6.normalTitle" = "Vamos começar
+";
+
+/* Class = "UIButton"; normalTitle = "   About App"; ObjectID = "uea-fV-HDm"; */
+"uea-fV-HDm.normalTitle" = "   Sobre o aplicativo";
+"Change language" = "Mudar idioma";
+"To changing language you need to restart application, do you want to restart?" = "Para alterar o idioma, você precisa reiniciar o aplicativo, deseja reiniciar?";

@@ -1,0 +1,71 @@
+
+/* Class = "UILabel"; text = "Choose your\nlanguage"; ObjectID = "4Uf-yU-zoN"; */
+"4Uf-yU-zoN.text" = "언어를 \n 선택하세요";
+
+/* Class = "UILabel"; text = "Select the language to get started."; ObjectID = "6ah-re-DeN"; */
+"6ah-re-DeN.text" = "시작하려면 언어를 선택하세요.";
+
+/* Class = "UILabel"; text = "Other Settings"; ObjectID = "6nA-6F-jK3"; */
+"6nA-6F-jK3.text" = "다른 설정";
+
+/* Class = "UILabel"; text = "Select a topic\nyou want to learn"; ObjectID = "AjJ-XI-Ub2"; */
+"AjJ-XI-Ub2.text" = "배우고 싶은 주제를 \n 선택하십시오";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "DPf-i1-sOc"; */
+"DPf-i1-sOc.text" = "설정";
+
+/* Class = "UILabel"; text = "Welcome to Learn Spanish"; ObjectID = "DpD-GP-2Yd"; */
+"DpD-GP-2Yd.text" = "스페인어 배우기에 오신 것을 환영합니다";
+
+/* Class = "UILabel"; text = "Phrases"; ObjectID = "EU9-p4-DWV"; */
+"EU9-p4-DWV.text" = "실없는 말";
+
+/* Class = "UIButton"; normalTitle = "   Dark mode"; ObjectID = "FZe-CG-edA"; */
+"FZe-CG-edA.normalTitle" = "   다크 모드";
+
+/* Class = "UILabel"; text = "Learn Spanish"; ObjectID = "HBJ-Wl-sn9"; */
+"HBJ-Wl-sn9.text" = "스페인어를 배우다";
+
+/* Class = "UILabel"; text = "To start learning Spanish effectively!"; ObjectID = "JoN-0o-cd5"; */
+"JoN-0o-cd5.text" = "효과적으로 스페인어 학습을 시작하려면!";
+
+/* Class = "UIButton"; normalTitle = "   Rate this app"; ObjectID = "KrV-Sw-65W"; */
+"KrV-Sw-65W.normalTitle" = "   이 앱을 평가 해주십시오";
+
+/* Class = "UILabel"; text = "Hola!"; ObjectID = "ORH-cO-Vnf"; */
+"ORH-cO-Vnf.text" = "여보세요!";
+
+/* Class = "UIButton"; normalTitle = "   Language"; ObjectID = "TVi-aw-pCt"; */
+"TVi-aw-pCt.normalTitle" = "   언어";
+
+/* Class = "UILabel"; text = "Words"; ObjectID = "Vtu-JC-219"; */
+"Vtu-JC-219.text" = "말";
+
+/* Class = "UIButton"; normalTitle = "   Bookmark words"; ObjectID = "bhq-TX-JBr"; */
+"bhq-TX-JBr.normalTitle" = "   북마크 단어";
+
+/* Class = "UILabel"; text = "General"; ObjectID = "fbg-Mp-PFI"; */
+"fbg-Mp-PFI.text" = "일반";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "gQ1-C5-FjK"; */
+"gQ1-C5-FjK.text" = "언어";
+
+/* Class = "UIButton"; normalTitle = "   Privacy policy"; ObjectID = "h9y-uf-hCP"; */
+"h9y-uf-hCP.normalTitle" = "   개인 정보 정책";
+
+/* Class = "UILabel"; text = "Learn Spanish"; ObjectID = "iSZ-PK-tSV"; */
+"iSZ-PK-tSV.text" = "스페인어를 배우다";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jpu-kE-cTi"; */
+"jpu-kE-cTi.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "u1h-nz-XSf"; */
+"u1h-nz-XSf.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Let get started"; ObjectID = "uPc-Yi-Je6"; */
+"uPc-Yi-Je6.normalTitle" = "시작하자";
+
+/* Class = "UIButton"; normalTitle = "   About App"; ObjectID = "uea-fV-HDm"; */
+"uea-fV-HDm.normalTitle" = "   앱 정보";
+"Change language" = "언어 변경";
+"To changing language you need to restart application, do you want to restart?" = "언어를 변경하려면 응용 프로그램을 다시 시작해야합니다. 다시 시작 하시겠습니까?";

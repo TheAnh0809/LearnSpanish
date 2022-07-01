@@ -1,0 +1,1499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002CF53A431F8622BB147EF8D8EBD8A7 /* UIViewController+DarkModeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E98F13C3917C331ED3F74A9FFD8A4C5 /* UIViewController+DarkModeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03F6349BC7F1C0F3BDFD63082CCE32DB /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF661E6DC686F10E30A1D46E0BC3DDC /* FTS4.swift */; };
+		080F64036E09C1B18DA4ACD0B5AD2FD5 /* FluentDarkModeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1168B7585603F0343970619BB09B328 /* FluentDarkModeKit-dummy.m */; };
+		08B5B89F28224381711F45A680C292D9 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E39236F53C30D555342F18B458F616CD /* SideMenu-dummy.m */; };
+		09226679656F98E98E37E5823062EBDA /* FluentDarkModeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 262B02DFC8C394F5D581A1B67D22BB34 /* FluentDarkModeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09A0A5D3733F69E93F553ABBCF02FB77 /* SideMenuTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3894A07A1D2B1D6C82F40A606A8DEA09 /* SideMenuTransitionController.swift */; };
+		0CABFDC0E1A33ACC3F4EA89079B7E390 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		0CC0E3F2F2EF1FE72C7525CB14CFB3F5 /* DarkModeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FF605895C2593DDE37D76B2E345388 /* DarkModeManager.swift */; };
+		13DC37325FD7C005D5757A7A24879CFB /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7F0234852CE26368C9F95808485660 /* Expression.swift */; };
+		16BF9DD8DAEBDB44D3B1A010E45BB611 /* UIActivityIndicatorView+DarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B295BBDA9337D4D9892FC065ADB1227D /* UIActivityIndicatorView+DarkModeKit.swift */; };
+		16E32D96D226F5CA5ECE9021B4448A2C /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA779DA918569746D27C305537E17753 /* Connection.swift */; };
+		175E39C5781D07F1AA781153D22544C9 /* String+LocalizeTableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE654FCCBF0D619461C677AE4F99C5B /* String+LocalizeTableName.swift */; };
+		18808F9C139BA0E9059E72980F0BF908 /* SQLite.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07AD14BCF488E9993F1D111D4C06434E /* SQLite.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		188E0D4F7200FED3C7A1245F9F913072 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25077BEA91C01A72EBCC5472141ECDD2 /* Coding.swift */; };
+		1ABB7067135E9D2252BCD8010D684385 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		1B13B36FAC4CB8F57794A2B328FDA679 /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4F4AF517AD4E1005D3D6739ACC118D /* CoreFunctions.swift */; };
+		1D6AC02D8AD1A0AC30D2D126EE468DD4 /* UIColor+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3A8E70141E8FE2F7934ACB3B6460B2 /* UIColor+DarkModeKit.m */; };
+		200E7D9F1B5BB8C3C43E23D65BAE9EBE /* DMDynamicImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D24E3E75D8F2795507E3473FE1A93EB9 /* DMDynamicImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25D41A92EE1AAF1134F5F1F96982496E /* Pods-AppSpanish-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 343921570ABF2C46B199640C6806EC0B /* Pods-AppSpanish-dummy.m */; };
+		262B08D5552556B1314D291CC74C7A6A /* DMDynamicColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C1CC2B40D16A6CD151B1E9D5234130 /* DMDynamicColor.m */; };
+		27D830F1CAC60B99CC0A135F583BFFF2 /* SideMenuPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8C68B0F82DAD38ECB4294822E4F59 /* SideMenuPresentationController.swift */; };
+		2824177B8E9094D3EF1A65530414FDE9 /* UITextField+DarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87947411F241216D393CF3E03BB9998A /* UITextField+DarkModeKit.swift */; };
+		2833C881CB49BE50134ACC24D9720D75 /* String+LocalizedBundleTableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1643625F7E207C63DBD6AC7CE5EA4F95 /* String+LocalizedBundleTableName.swift */; };
+		2C32320502711AD85CEFA784A296DF9B /* UIButton+DarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE1CB2773CB49CD53C32C2E45962130 /* UIButton+DarkModeKit.swift */; };
+		2C38AE4AB700D998874FD9171B1AAD7E /* Localize_Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F783E7C015C8B298EDE84602C2F74D /* Localize_Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C4F38367FEF4F7C72224D9EB87B7F71 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD2958316A424D9F4DF246DD7D71D62 /* Blob.swift */; };
+		2ED518A3FA8DCBE08E621AC5C32844A9 /* SideMenuPushCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA01AB402C7A9E687C8E506A1FF2175 /* SideMenuPushCoordinator.swift */; };
+		2FAA712CFBE24CDE206642FDF7EFBAB5 /* FluentDarkModeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7018849DA6719B1DA1176B7B7C36271D /* FluentDarkModeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31AAD13A75FA67A504E265924E542827 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F41F76811E67C17DA605F3CE2ABC4F /* Statement.swift */; };
+		348B481DC980D7B5252368E2A54CFBF9 /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EF8D7142046AC4CB95B37BA7136A22 /* Foundation.swift */; };
+		3846AFE38D1B63A9F0D9073C4ABC6DAA /* SideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F686B52E2FFA65FB65DE9289AB1B4D5 /* SideMenuNavigationController.swift */; };
+		3E18B004D34ED5441A193684EEB25BD3 /* SideMenuPresentationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07722CA3D9E41D67B480B6793CED853F /* SideMenuPresentationStyle.swift */; };
+		40008C8D5FAC59482281F2947B478AC0 /* String+LocalizeBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1917D79A6F07EA98C61C1223D0A6A34A /* String+LocalizeBundle.swift */; };
+		417EE23ABB074BA2908A1FB496152004 /* Localize-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6757F5F5461F4D32A62A9577C7B927 /* Localize-Swift-dummy.m */; };
+		423E82205743F7BC136CDEF2B5FA30D5 /* UIView+DarkModeKitSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B23E2E7010F06430B498B431B229374 /* UIView+DarkModeKitSwizzling.m */; };
+		444D048C8F52A4002F068AE6198AA5B7 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C0140E6BA27050AD9AC8D84821394E /* Query.swift */; };
+		4A50D35274D871E14260F93489F87E32 /* SQLiteObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1EDDF9A259ADD36E08E8A8CCCE15CC /* SQLiteObjc.m */; };
+		4E3EDCB1C27B3725FD8AEFD7E61B9E17 /* RTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E561CCE813F28613C910CC74352395 /* RTree.swift */; };
+		4E88B70410F6837FBD463EA4B6C33155 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA301A93CB377C6694CEE7432443ED4 /* Extensions.swift */; };
+		507EDE579AD2ACB13B34EC35F3D754E1 /* UISlider+DarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9C878E2BC853437FC4FAAC5C3A49A4 /* UISlider+DarkModeKit.swift */; };
+		5A2C0E27BFC592E2FF83520810B4FFD2 /* DMEnvironmentConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 1239A1E1E8FC2EAAD4892E2ED49B8B1C /* DMEnvironmentConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AB7AA2D47C8BD4ED779FB58ADD2EB19 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295DAFC592AEE0F4B152E981F6B841CB /* Operators.swift */; };
+		5ACC83E935374D7CF0F858240015E149 /* UINavigationBar+DarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE0C0E26517D977CDDF2A23AC44B4F3 /* UINavigationBar+DarkModeKit.swift */; };
+		5BA891FB2BE2492499DD30FAD3D2F399 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04A6414C57E8E97A8B925BBB15C147 /* Value.swift */; };
+		5D1D42009E941070E4EDDE947A881181 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1028197D86A081612EE95687CF996464 /* Errors.swift */; };
+		5E8E100AABBDB2BC12F2128597B6E512 /* DMTraitCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EC200059C0F6FBAF88D6BE9A731D88 /* DMTraitCollection.m */; };
+		5F75157A5075DECD1D4512F9A6744CA6 /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 509033697C84D2C3B77D5933D836BF61 /* fts3_tokenizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		63A1C804362C32F314CBD4C0CA899A57 /* UIColor+DarkModeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F25F8C9A80557E234C8DF91B79F0804B /* UIColor+DarkModeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67F339D752FFF174485AB6F96EC6FA7E /* SQLite.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 636687FD7D9D574764F817979E4B5099 /* SQLite.swift-dummy.m */; };
+		76E30279374FDF63E1722EA9DA79C0B8 /* DMTraitCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FC67724E550F893CA77268B5CFB281 /* DMTraitCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77AF2098DDCCAAE0CE4A20725C466905 /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5721E57731A315370D6F6A1E838AD92A /* SideMenuManager.swift */; };
+		79E43357E56514CD6FE8A6F4B1D28C2E /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30BADACDF4BFE6E1FD7C0B9B57D09DB /* Helpers.swift */; };
+		7D7D6EB0F1088F113EC2551A3FE386F9 /* UIImage+DarkModeKitSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A491DBDD3C6169D43D233EF2155F0D6 /* UIImage+DarkModeKitSwizzling.m */; };
+		7DA05781FB16CAFE6A3F7035AAEF43EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		81163701080134770635B574575CA7FB /* UIImage+DarkModeKitSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BD1D87F5BE9B8236168DBA4EB7E0F9D /* UIImage+DarkModeKitSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		849822D791DC76028D73431296EB629F /* DMNamespace.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FCA5473D59E71F3D7973D2BD979CAF /* DMNamespace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		890FF25D0CCFF9BADECBA64DCCEFF4FF /* SideMenuAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C2F3EAAB13077D38105BED0714C251 /* SideMenuAnimationController.swift */; };
+		8C06632AA14D12278B1277AC0CC6A0B2 /* SideMenuInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0641DCA67E114ABF9DBBFCDAE7D0B89 /* SideMenuInteractionController.swift */; };
+		8C6BBE622771EB3AAD6B360ED555E329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		905A503F069C27E841BAD9F4EFD4F1AF /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D528C6CCE8F5A3AF8D3C7D6CC0222 /* Protected.swift */; };
+		931B2996C84AB5753E091CABF1BEC013 /* Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F9C5C2A10BE6B53F3A41EAB0DA58F6 /* Localize.swift */; };
+		9716D25F83E0B970644E6FCBF9B1E6BF /* UIImage+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1248063A50C6779CB24C0D5DA4B8A0 /* UIImage+DarkModeKit.m */; };
+		9A7C597A2A5EA33EE6BF5C782E2D18A2 /* Localize-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 932B705F7591575659E3E317FF335A0E /* Localize-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B3A040DEACD188FBA57F28AFAADB057 /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9905258E90B6B7BA72870EB709BF0B6 /* AggregateFunctions.swift */; };
+		9FE8C5E995B63208FFE6840697E05088 /* UILabel+DarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849BC731C8290E7059A8CCFF32E7AD8 /* UILabel+DarkModeKit.swift */; };
+		A42659683986F68D9D4F244F1DB71C2F /* FTS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1D1BE46E25C5CBAFC8D62A2ABDA687 /* FTS5.swift */; };
+		A8F34242E4AE950559355636C4AB122D /* UIProgressView+DarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFFE6B0A3EC702A9A49889B1E0E6AA7 /* UIProgressView+DarkModeKit.swift */; };
+		A94A06F4998D4626D7981732F3178A75 /* UIView+DarkModeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E24968B4382C205B49E97CA3AF7BF368 /* UIView+DarkModeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A966409E4EB7EB56CBE6C9DFA0FC5B94 /* DateAndTimeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBA6556183A5B54893000A7F24AE0D3 /* DateAndTimeFunctions.swift */; };
+		A9BB072843BA843D7B004A1D39EFE4B1 /* IBDesignable+Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E77D67B6275CF39A02DB0FD4DC7967 /* IBDesignable+Localize.swift */; };
+		AF80C83338AA2740EA537D7DF46BD259 /* UIScrollView+DarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF4ED19BC0E1FF2B4D7D546C3333E73 /* UIScrollView+DarkModeKit.swift */; };
+		B1D89872AC365C78155FF44EE9F28FEF /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 956F5576D29516FD3200E4C441740627 /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B58BFAEF8C2359B82C7210295DE083A1 /* DMEnvironmentConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BE41FB26EACD799B40D4DDD40D0960 /* DMEnvironmentConfiguration.m */; };
+		BE0EA04A93DC9EBAEA86E509FC5C4751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		C64E97D5FC0802B08D7CA36AEC74A422 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7279B5116A7BADA1ADE2855274556805 /* CustomFunctions.swift */; };
+		C798DA148F7F666F393F2009DDF73E35 /* Initializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D53061269DB516F00BC7324792B059 /* Initializable.swift */; };
+		C88FBE2685288A7CEADC4905BB9CC425 /* UIView+DarkModeKitSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = CCA23A6371F5EC1C9C125E77F8253B06 /* UIView+DarkModeKitSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C89621A799EE99C34B8AD47E68C9972D /* UITabBar+DarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834307109872E0AE7D67340C220AC54A /* UITabBar+DarkModeKit.swift */; };
+		C924A6A2AC0159CAF890E59A293EB9AD /* UIImage+DarkModeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 968D6D225EF67620A3AD1B48933C1ACA /* UIImage+DarkModeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C96A55C2A869A97AC4CA628A7F2A2A21 /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C31B9D35EB2DF73E19CBA78B1C5C7C /* UITableViewVibrantCell.swift */; };
+		D1BD7393C7934049B3E51D9C5A5CD8A0 /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237464EAC82C90882526CEDCA97628E7 /* Print.swift */; };
+		D1E9B5FDF06504E3EFF9D2BAB049CF0B /* UITableView+DarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D37AC78B186CD643092FAC7A52CCCD /* UITableView+DarkModeKit.swift */; };
+		D3D22BB8C279DC03EA91BFE3F5412477 /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB07C27A1DE7BC89A665A3AB0A37CE2 /* Deprecations.swift */; };
+		D6E6E2AA38E0E6B0B7D1E0891F4FD12D /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C562E74D3EE2F20C5C8A70EA9E75FD /* Setter.swift */; };
+		D777716F0B6C0754B7B0230531743BC4 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 282C3DC921B3EF3ADE8F8DF30A92EA6E /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC35DED47CD2DA273DFE695B6D755CF2 /* DMDynamicImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD80BF7A931A5B49614F89E79FCC5EC /* DMDynamicImage.m */; };
+		E10FF5D7FBB010AE8146F6F609DE8815 /* Pods-AppSpanish-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3060CF6D630A2EF03DA45CE164EB390 /* Pods-AppSpanish-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6185FE6512B136C3B83DAB7572CEEF4 /* UIImageView+DarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC04CD76E00A8B25282DD76279CE39C /* UIImageView+DarkModeKit.swift */; };
+		E62CB8CBD8984E43DDC31D8A39A2E3FB /* UIViewController+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEB3DD542BEE25B070B6E5190FB01EA /* UIViewController+DarkModeKit.m */; };
+		E925037BD42904125EC35FF3E14EAF22 /* UIPageControl+DarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA224B11C07B5A1DB3EF89C05D1B621 /* UIPageControl+DarkModeKit.swift */; };
+		E978507CCB414C5203F3C4E41044A575 /* UIToolbar+DarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ADA9A1A5E90EB26C42D3AA974C99D8 /* UIToolbar+DarkModeKit.swift */; };
+		EE966B1A61C1960A3BBC22A783C27272 /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DBE5002C6CC6591C28CF65881114D8 /* Collation.swift */; };
+		EF5E32C13CFA779B953F8F81AE3C67D6 /* SQLiteObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B3320FE19DC2910B7AE51851EE3ADB0 /* SQLiteObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2EB1770EC859BEDB11A38FE6D93BA92 /* UITextView+DarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8532B1383CB78C86361FC5033E4867E /* UITextView+DarkModeKit.swift */; };
+		F313925EFA1264F29E31F91EDE5187D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		F4078B03FC0455D21647C635A0AE29FD /* UIView+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A34E1FB80A91A6F47A30E4A77F2D5242 /* UIView+DarkModeKit.m */; };
+		F5810D3894E9FA37DF074F34D2C228F8 /* DMDynamicColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B778278A68D29ED98319D8EC4726A4 /* DMDynamicColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6BB6C198A2522FF0633261964EB2A24 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5995FE08EF73AE9A30029BCAEBAB788F /* Schema.swift */; };
+		F7D0BC57E31099227812B909E776F9FA /* UIView+DarkModeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168DE7CFA2F9A5898DAB0B13066A4842 /* UIView+DarkModeKit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06BE0DAD2BF20CE5ABCA2ABC3D0844D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4A0A7D8591B67FB75E2E8D215E3735B;
+			remoteInfo = SideMenu;
+		};
+		7E1523F4BD703D01A92690E1B90DDCFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 340DDF7DB405EDF7F01580175FF090DF;
+			remoteInfo = "Localize-Swift";
+		};
+		92B72CEEAC052F1CB8DA4D6EEB8BEDB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 155BF1269EF587A2F12050C60EFF878E;
+			remoteInfo = FluentDarkModeKit;
+		};
+		E403FCECD491FA02CE902EEEC28E6250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2C1776D90B62B156DB52C41A5C419C;
+			remoteInfo = SQLite.swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02FF605895C2593DDE37D76B2E345388 /* DarkModeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DarkModeManager.swift; path = Sources/FluentDarkModeKit/DarkModeManager.swift; sourceTree = "<group>"; };
+		07722CA3D9E41D67B480B6793CED853F /* SideMenuPresentationStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPresentationStyle.swift; path = Pod/Classes/SideMenuPresentationStyle.swift; sourceTree = "<group>"; };
+		07AD14BCF488E9993F1D111D4C06434E /* SQLite.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-umbrella.h"; sourceTree = "<group>"; };
+		0B7228F9FF7C311BF9DD4A60E67D2B31 /* Pods-AppSpanish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppSpanish.release.xcconfig"; sourceTree = "<group>"; };
+		0C043EF80C6E080BF1308346E052C1EC /* SideMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SideMenu-Info.plist"; sourceTree = "<group>"; };
+		0D4F4AF517AD4E1005D3D6739ACC118D /* CoreFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreFunctions.swift; path = Sources/SQLite/Typed/CoreFunctions.swift; sourceTree = "<group>"; };
+		0E1E0585CD92A98DA404553029EB7706 /* FluentDarkModeKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FluentDarkModeKit-Info.plist"; sourceTree = "<group>"; };
+		0E87DD7A07E7DB53009DC0CFEAFED729 /* Pods-AppSpanish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppSpanish.debug.xcconfig"; sourceTree = "<group>"; };
+		1028197D86A081612EE95687CF996464 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/SQLite/Core/Errors.swift; sourceTree = "<group>"; };
+		10F9C5C2A10BE6B53F3A41EAB0DA58F6 /* Localize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Localize.swift; path = Sources/Localize.swift; sourceTree = "<group>"; };
+		1239A1E1E8FC2EAAD4892E2ED49B8B1C /* DMEnvironmentConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMEnvironmentConfiguration.h; path = Sources/DarkModeCore/DMEnvironmentConfiguration.h; sourceTree = "<group>"; };
+		1643625F7E207C63DBD6AC7CE5EA4F95 /* String+LocalizedBundleTableName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+LocalizedBundleTableName.swift"; path = "Sources/String+LocalizedBundleTableName.swift"; sourceTree = "<group>"; };
+		168DE7CFA2F9A5898DAB0B13066A4842 /* UIView+DarkModeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+DarkModeKit.swift"; path = "Sources/FluentDarkModeKit/Extensions/UIView+DarkModeKit.swift"; sourceTree = "<group>"; };
+		1917D79A6F07EA98C61C1223D0A6A34A /* String+LocalizeBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+LocalizeBundle.swift"; path = "Sources/String+LocalizeBundle.swift"; sourceTree = "<group>"; };
+		19662C98BBC9AD2C0A72C16A38D3BB5D /* Localize-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Localize-Swift-prefix.pch"; sourceTree = "<group>"; };
+		1F686B52E2FFA65FB65DE9289AB1B4D5 /* SideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuNavigationController.swift; path = Pod/Classes/SideMenuNavigationController.swift; sourceTree = "<group>"; };
+		21B778278A68D29ED98319D8EC4726A4 /* DMDynamicColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMDynamicColor.h; path = Sources/DarkModeCore/DMDynamicColor.h; sourceTree = "<group>"; };
+		237464EAC82C90882526CEDCA97628E7 /* Print.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Print.swift; path = Pod/Classes/Print.swift; sourceTree = "<group>"; };
+		25077BEA91C01A72EBCC5472141ECDD2 /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = Sources/SQLite/Typed/Coding.swift; sourceTree = "<group>"; };
+		262B02DFC8C394F5D581A1B67D22BB34 /* FluentDarkModeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FluentDarkModeKit-umbrella.h"; sourceTree = "<group>"; };
+		282C3DC921B3EF3ADE8F8DF30A92EA6E /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
+		295DAFC592AEE0F4B152E981F6B841CB /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/SQLite/Typed/Operators.swift; sourceTree = "<group>"; };
+		2A491DBDD3C6169D43D233EF2155F0D6 /* UIImage+DarkModeKitSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+DarkModeKitSwizzling.m"; path = "Sources/DarkModeCore/UIImage+DarkModeKitSwizzling.m"; sourceTree = "<group>"; };
+		2B3E7CFE978110D775F993DB27B64061 /* FluentDarkModeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FluentDarkModeKit.debug.xcconfig; sourceTree = "<group>"; };
+		2ECF488EFD24A1B916546FB54E5E6827 /* Localize_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Localize_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C2F3EAAB13077D38105BED0714C251 /* SideMenuAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuAnimationController.swift; path = Pod/Classes/SideMenuAnimationController.swift; sourceTree = "<group>"; };
+		319D06AA0D1D0BA345459C039040A1ED /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C1CC2B40D16A6CD151B1E9D5234130 /* DMDynamicColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMDynamicColor.m; path = Sources/DarkModeCore/DMDynamicColor.m; sourceTree = "<group>"; };
+		31FC67724E550F893CA77268B5CFB281 /* DMTraitCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMTraitCollection.h; path = Sources/DarkModeCore/DMTraitCollection.h; sourceTree = "<group>"; };
+		343921570ABF2C46B199640C6806EC0B /* Pods-AppSpanish-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppSpanish-dummy.m"; sourceTree = "<group>"; };
+		3894A07A1D2B1D6C82F40A606A8DEA09 /* SideMenuTransitionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransitionController.swift; path = Pod/Classes/SideMenuTransitionController.swift; sourceTree = "<group>"; };
+		398D77BC9A197503C5A5F2632F982311 /* Pods-AppSpanish.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppSpanish.modulemap"; sourceTree = "<group>"; };
+		3A9D528C6CCE8F5A3AF8D3C7D6CC0222 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Pod/Classes/Protected.swift; sourceTree = "<group>"; };
+		3AC04CD76E00A8B25282DD76279CE39C /* UIImageView+DarkModeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+DarkModeKit.swift"; path = "Sources/FluentDarkModeKit/Extensions/UIImageView+DarkModeKit.swift"; sourceTree = "<group>"; };
+		3DC9B3786DE99C94FA173BEB888F5C72 /* Localize-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Localize-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		44E561CCE813F28613C910CC74352395 /* RTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTree.swift; path = Sources/SQLite/Extensions/RTree.swift; sourceTree = "<group>"; };
+		48EF8D7142046AC4CB95B37BA7136A22 /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = Sources/SQLite/Foundation.swift; sourceTree = "<group>"; };
+		4920ACAD4C7B5A12CC2F320A4E00511E /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenu.modulemap; sourceTree = "<group>"; };
+		4AC9769491C3D76CD30A640CAF1248B7 /* FluentDarkModeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FluentDarkModeKit.release.xcconfig; sourceTree = "<group>"; };
+		4EF661E6DC686F10E30A1D46E0BC3DDC /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = Sources/SQLite/Extensions/FTS4.swift; sourceTree = "<group>"; };
+		509033697C84D2C3B77D5933D836BF61 /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = Sources/SQLiteObjc/fts3_tokenizer.h; sourceTree = "<group>"; };
+		51F783E7C015C8B298EDE84602C2F74D /* Localize_Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Localize_Swift.h; path = Sources/Localize_Swift.h; sourceTree = "<group>"; };
+		54C2787246F69AEFE6E6D5AB7A360AFC /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
+		5721E57731A315370D6F6A1E838AD92A /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
+		5995FE08EF73AE9A30029BCAEBAB788F /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = Sources/SQLite/Typed/Schema.swift; sourceTree = "<group>"; };
+		5B1D1BE46E25C5CBAFC8D62A2ABDA687 /* FTS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5.swift; path = Sources/SQLite/Extensions/FTS5.swift; sourceTree = "<group>"; };
+		5D1248063A50C6779CB24C0D5DA4B8A0 /* UIImage+DarkModeKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+DarkModeKit.m"; path = "Sources/DarkModeCore/UIImage+DarkModeKit.m"; sourceTree = "<group>"; };
+		62D53061269DB516F00BC7324792B059 /* Initializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Initializable.swift; path = Pod/Classes/Initializable.swift; sourceTree = "<group>"; };
+		636687FD7D9D574764F817979E4B5099 /* SQLite.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLite.swift-dummy.m"; sourceTree = "<group>"; };
+		65F91B328DC5547A3018FF625839DAC8 /* SideMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.release.xcconfig; sourceTree = "<group>"; };
+		65FCA5473D59E71F3D7973D2BD979CAF /* DMNamespace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMNamespace.h; path = Sources/DarkModeCore/DMNamespace.h; sourceTree = "<group>"; };
+		66DBE5002C6CC6591C28CF65881114D8 /* Collation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collation.swift; path = Sources/SQLite/Typed/Collation.swift; sourceTree = "<group>"; };
+		69453AC367728CF35DC4B69275D2A8C9 /* SQLite.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQLite.swift.modulemap; sourceTree = "<group>"; };
+		6B3320FE19DC2910B7AE51851EE3ADB0 /* SQLiteObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLiteObjc.h; path = Sources/SQLiteObjc/include/SQLiteObjc.h; sourceTree = "<group>"; };
+		6FBA6556183A5B54893000A7F24AE0D3 /* DateAndTimeFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateAndTimeFunctions.swift; path = Sources/SQLite/Typed/DateAndTimeFunctions.swift; sourceTree = "<group>"; };
+		7018849DA6719B1DA1176B7B7C36271D /* FluentDarkModeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FluentDarkModeKit.h; path = Sources/DarkModeCore/FluentDarkModeKit.h; sourceTree = "<group>"; };
+		7279B5116A7BADA1ADE2855274556805 /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = Sources/SQLite/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
+		73C0140E6BA27050AD9AC8D84821394E /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Sources/SQLite/Typed/Query.swift; sourceTree = "<group>"; };
+		7AFFE6B0A3EC702A9A49889B1E0E6AA7 /* UIProgressView+DarkModeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIProgressView+DarkModeKit.swift"; path = "Sources/FluentDarkModeKit/Extensions/UIProgressView+DarkModeKit.swift"; sourceTree = "<group>"; };
+		7D1EDDF9A259ADD36E08E8A8CCCE15CC /* SQLiteObjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SQLiteObjc.m; path = Sources/SQLiteObjc/SQLiteObjc.m; sourceTree = "<group>"; };
+		7EB07C27A1DE7BC89A665A3AB0A37CE2 /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Pod/Classes/Deprecations.swift; sourceTree = "<group>"; };
+		7F9954043B3DE402375E223721A2187F /* Pods-AppSpanish-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppSpanish-frameworks.sh"; sourceTree = "<group>"; };
+		82ED45C6FC8EC86E52FD42A05175A9DD /* SQLite.swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.release.xcconfig; sourceTree = "<group>"; };
+		82F4F535ED284C6E33A21C810D5D66B1 /* Pods-AppSpanish-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppSpanish-acknowledgements.markdown"; sourceTree = "<group>"; };
+		834307109872E0AE7D67340C220AC54A /* UITabBar+DarkModeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITabBar+DarkModeKit.swift"; path = "Sources/FluentDarkModeKit/Extensions/UITabBar+DarkModeKit.swift"; sourceTree = "<group>"; };
+		85D0FE45A9272EA5EA2426E71FC41F13 /* Pods-AppSpanish-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppSpanish-Info.plist"; sourceTree = "<group>"; };
+		87947411F241216D393CF3E03BB9998A /* UITextField+DarkModeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+DarkModeKit.swift"; path = "Sources/FluentDarkModeKit/Extensions/UITextField+DarkModeKit.swift"; sourceTree = "<group>"; };
+		8B6757F5F5461F4D32A62A9577C7B927 /* Localize-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Localize-Swift-dummy.m"; sourceTree = "<group>"; };
+		8BD1D87F5BE9B8236168DBA4EB7E0F9D /* UIImage+DarkModeKitSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+DarkModeKitSwizzling.h"; path = "Sources/DarkModeCore/UIImage+DarkModeKitSwizzling.h"; sourceTree = "<group>"; };
+		8CE8C68B0F82DAD38ECB4294822E4F59 /* SideMenuPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPresentationController.swift; path = Pod/Classes/SideMenuPresentationController.swift; sourceTree = "<group>"; };
+		8DD80BF7A931A5B49614F89E79FCC5EC /* DMDynamicImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMDynamicImage.m; path = Sources/DarkModeCore/DMDynamicImage.m; sourceTree = "<group>"; };
+		8EE0C0E26517D977CDDF2A23AC44B4F3 /* UINavigationBar+DarkModeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationBar+DarkModeKit.swift"; path = "Sources/FluentDarkModeKit/Extensions/UINavigationBar+DarkModeKit.swift"; sourceTree = "<group>"; };
+		932B705F7591575659E3E317FF335A0E /* Localize-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Localize-Swift-umbrella.h"; sourceTree = "<group>"; };
+		956F5576D29516FD3200E4C441740627 /* SQLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = Sources/SQLite/SQLite.h; sourceTree = "<group>"; };
+		968D6D225EF67620A3AD1B48933C1ACA /* UIImage+DarkModeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+DarkModeKit.h"; path = "Sources/DarkModeCore/UIImage+DarkModeKit.h"; sourceTree = "<group>"; };
+		979A860AE4A449C07D2F8188D3B44302 /* SQLite.swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.debug.xcconfig; sourceTree = "<group>"; };
+		97A7372539379D48CDE375F1BD999C2E /* SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
+		9B23E2E7010F06430B498B431B229374 /* UIView+DarkModeKitSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+DarkModeKitSwizzling.m"; path = "Sources/DarkModeCore/UIView+DarkModeKitSwizzling.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E98F13C3917C331ED3F74A9FFD8A4C5 /* UIViewController+DarkModeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+DarkModeKit.h"; path = "Sources/DarkModeCore/UIViewController+DarkModeKit.h"; sourceTree = "<group>"; };
+		A34E1FB80A91A6F47A30E4A77F2D5242 /* UIView+DarkModeKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+DarkModeKit.m"; path = "Sources/DarkModeCore/UIView+DarkModeKit.m"; sourceTree = "<group>"; };
+		A533B55544144CB1836AA194498AC257 /* FluentDarkModeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FluentDarkModeKit-prefix.pch"; sourceTree = "<group>"; };
+		A6E77D67B6275CF39A02DB0FD4DC7967 /* IBDesignable+Localize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IBDesignable+Localize.swift"; path = "Sources/UI/IBDesignable+Localize.swift"; sourceTree = "<group>"; };
+		A849BC731C8290E7059A8CCFF32E7AD8 /* UILabel+DarkModeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+DarkModeKit.swift"; path = "Sources/FluentDarkModeKit/Extensions/UILabel+DarkModeKit.swift"; sourceTree = "<group>"; };
+		AA7F0234852CE26368C9F95808485660 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/SQLite/Typed/Expression.swift; sourceTree = "<group>"; };
+		AB3A8E70141E8FE2F7934ACB3B6460B2 /* UIColor+DarkModeKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+DarkModeKit.m"; path = "Sources/DarkModeCore/UIColor+DarkModeKit.m"; sourceTree = "<group>"; };
+		AB9C878E2BC853437FC4FAAC5C3A49A4 /* UISlider+DarkModeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISlider+DarkModeKit.swift"; path = "Sources/FluentDarkModeKit/Extensions/UISlider+DarkModeKit.swift"; sourceTree = "<group>"; };
+		B0D37AC78B186CD643092FAC7A52CCCD /* UITableView+DarkModeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+DarkModeKit.swift"; path = "Sources/FluentDarkModeKit/Extensions/UITableView+DarkModeKit.swift"; sourceTree = "<group>"; };
+		B295BBDA9337D4D9892FC065ADB1227D /* UIActivityIndicatorView+DarkModeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIActivityIndicatorView+DarkModeKit.swift"; path = "Sources/FluentDarkModeKit/Extensions/UIActivityIndicatorView+DarkModeKit.swift"; sourceTree = "<group>"; };
+		B48BBA64C0C8EA49586F8DC8E03AD727 /* FluentDarkModeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FluentDarkModeKit.modulemap; sourceTree = "<group>"; };
+		B9905258E90B6B7BA72870EB709BF0B6 /* AggregateFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AggregateFunctions.swift; path = Sources/SQLite/Typed/AggregateFunctions.swift; sourceTree = "<group>"; };
+		BAA301A93CB377C6694CEE7432443ED4 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Pod/Classes/Extensions.swift; sourceTree = "<group>"; };
+		BBE1CB2773CB49CD53C32C2E45962130 /* UIButton+DarkModeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+DarkModeKit.swift"; path = "Sources/FluentDarkModeKit/Extensions/UIButton+DarkModeKit.swift"; sourceTree = "<group>"; };
+		BF04A6414C57E8E97A8B925BBB15C147 /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/SQLite/Core/Value.swift; sourceTree = "<group>"; };
+		C0641DCA67E114ABF9DBBFCDAE7D0B89 /* SideMenuInteractionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuInteractionController.swift; path = Pod/Classes/SideMenuInteractionController.swift; sourceTree = "<group>"; };
+		C2EC200059C0F6FBAF88D6BE9A731D88 /* DMTraitCollection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMTraitCollection.m; path = Sources/DarkModeCore/DMTraitCollection.m; sourceTree = "<group>"; };
+		C6AE65A2A190D9BFAEDFCF371CFBF7E5 /* SideMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.debug.xcconfig; sourceTree = "<group>"; };
+		CCA23A6371F5EC1C9C125E77F8253B06 /* UIView+DarkModeKitSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+DarkModeKitSwizzling.h"; path = "Sources/DarkModeCore/UIView+DarkModeKitSwizzling.h"; sourceTree = "<group>"; };
+		CEE654FCCBF0D619461C677AE4F99C5B /* String+LocalizeTableName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+LocalizeTableName.swift"; path = "Sources/String+LocalizeTableName.swift"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D24E3E75D8F2795507E3473FE1A93EB9 /* DMDynamicImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMDynamicImage.h; path = Sources/DarkModeCore/DMDynamicImage.h; sourceTree = "<group>"; };
+		D25E506F3336144043771703014D43BE /* SQLite.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SQLite.swift-Info.plist"; sourceTree = "<group>"; };
+		D30BADACDF4BFE6E1FD7C0B9B57D09DB /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/SQLite/Helpers.swift; sourceTree = "<group>"; };
+		D33A1E385057AD3336910F019A73E9E1 /* Pods_AppSpanish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppSpanish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F41F76811E67C17DA605F3CE2ABC4F /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = Sources/SQLite/Core/Statement.swift; sourceTree = "<group>"; };
+		D4F41757EDE9014005783AD9C70A9F20 /* Localize-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Localize-Swift-Info.plist"; sourceTree = "<group>"; };
+		D8532B1383CB78C86361FC5033E4867E /* UITextView+DarkModeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+DarkModeKit.swift"; path = "Sources/FluentDarkModeKit/Extensions/UITextView+DarkModeKit.swift"; sourceTree = "<group>"; };
+		DA7AFA6E7B1BCF673BC853BF1D9AE20E /* Pods-AppSpanish-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppSpanish-acknowledgements.plist"; sourceTree = "<group>"; };
+		E1168B7585603F0343970619BB09B328 /* FluentDarkModeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FluentDarkModeKit-dummy.m"; sourceTree = "<group>"; };
+		E1ADA9A1A5E90EB26C42D3AA974C99D8 /* UIToolbar+DarkModeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIToolbar+DarkModeKit.swift"; path = "Sources/FluentDarkModeKit/Extensions/UIToolbar+DarkModeKit.swift"; sourceTree = "<group>"; };
+		E24968B4382C205B49E97CA3AF7BF368 /* UIView+DarkModeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+DarkModeKit.h"; path = "Sources/DarkModeCore/UIView+DarkModeKit.h"; sourceTree = "<group>"; };
+		E39236F53C30D555342F18B458F616CD /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
+		E3BE41FB26EACD799B40D4DDD40D0960 /* DMEnvironmentConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMEnvironmentConfiguration.m; path = Sources/DarkModeCore/DMEnvironmentConfiguration.m; sourceTree = "<group>"; };
+		E9C31B9D35EB2DF73E19CBA78B1C5C7C /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EBEB3DD542BEE25B070B6E5190FB01EA /* UIViewController+DarkModeKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+DarkModeKit.m"; path = "Sources/DarkModeCore/UIViewController+DarkModeKit.m"; sourceTree = "<group>"; };
+		ECBDB88640B4F744482F83D715ACD315 /* Localize-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Localize-Swift.modulemap"; sourceTree = "<group>"; };
+		ECD2958316A424D9F4DF246DD7D71D62 /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Sources/SQLite/Core/Blob.swift; sourceTree = "<group>"; };
+		EFA01AB402C7A9E687C8E506A1FF2175 /* SideMenuPushCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPushCoordinator.swift; path = Pod/Classes/SideMenuPushCoordinator.swift; sourceTree = "<group>"; };
+		F25F8C9A80557E234C8DF91B79F0804B /* UIColor+DarkModeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+DarkModeKit.h"; path = "Sources/DarkModeCore/UIColor+DarkModeKit.h"; sourceTree = "<group>"; };
+		F3060CF6D630A2EF03DA45CE164EB390 /* Pods-AppSpanish-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppSpanish-umbrella.h"; sourceTree = "<group>"; };
+		F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F899F74BD19FFA2A44622E9E7CD318C7 /* Localize-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Localize-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		F8C562E74D3EE2F20C5C8A70EA9E75FD /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = Sources/SQLite/Typed/Setter.swift; sourceTree = "<group>"; };
+		FA779DA918569746D27C305537E17753 /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/SQLite/Core/Connection.swift; sourceTree = "<group>"; };
+		FE307ED0F10805D68F11347163B5AF36 /* FluentDarkModeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FluentDarkModeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA224B11C07B5A1DB3EF89C05D1B621 /* UIPageControl+DarkModeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPageControl+DarkModeKit.swift"; path = "Sources/FluentDarkModeKit/Extensions/UIPageControl+DarkModeKit.swift"; sourceTree = "<group>"; };
+		FFF4ED19BC0E1FF2B4D7D546C3333E73 /* UIScrollView+DarkModeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+DarkModeKit.swift"; path = "Sources/FluentDarkModeKit/Extensions/UIScrollView+DarkModeKit.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B5B8667B03DAB426420653764911ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABB7067135E9D2252BCD8010D684385 /* Foundation.framework in Frameworks */,
+				0CABFDC0E1A33ACC3F4EA89079B7E390 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99051F5D147F16EA91F61D58BD6EC795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0EA04A93DC9EBAEA86E509FC5C4751 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DC26BE8ED6BB3E57EC282209CB9866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6BBE622771EB3AAD6B360ED555E329 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D87C2BC8D3C4B8382407D4C6B16014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F313925EFA1264F29E31F91EDE5187D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA67018E93D70757E1778585DE5504F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA05781FB16CAFE6A3F7035AAEF43EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		071BCC3207ADDBE8131070BD92CA410E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE307ED0F10805D68F11347163B5AF36 /* FluentDarkModeKit.framework */,
+				2ECF488EFD24A1B916546FB54E5E6827 /* Localize_Swift.framework */,
+				D33A1E385057AD3336910F019A73E9E1 /* Pods_AppSpanish.framework */,
+				319D06AA0D1D0BA345459C039040A1ED /* SideMenu.framework */,
+				F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D5BF48569304F372E77A531825C5B21 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				7EB07C27A1DE7BC89A665A3AB0A37CE2 /* Deprecations.swift */,
+				BAA301A93CB377C6694CEE7432443ED4 /* Extensions.swift */,
+				62D53061269DB516F00BC7324792B059 /* Initializable.swift */,
+				237464EAC82C90882526CEDCA97628E7 /* Print.swift */,
+				3A9D528C6CCE8F5A3AF8D3C7D6CC0222 /* Protected.swift */,
+				30C2F3EAAB13077D38105BED0714C251 /* SideMenuAnimationController.swift */,
+				C0641DCA67E114ABF9DBBFCDAE7D0B89 /* SideMenuInteractionController.swift */,
+				5721E57731A315370D6F6A1E838AD92A /* SideMenuManager.swift */,
+				1F686B52E2FFA65FB65DE9289AB1B4D5 /* SideMenuNavigationController.swift */,
+				8CE8C68B0F82DAD38ECB4294822E4F59 /* SideMenuPresentationController.swift */,
+				07722CA3D9E41D67B480B6793CED853F /* SideMenuPresentationStyle.swift */,
+				EFA01AB402C7A9E687C8E506A1FF2175 /* SideMenuPushCoordinator.swift */,
+				3894A07A1D2B1D6C82F40A606A8DEA09 /* SideMenuTransitionController.swift */,
+				E9C31B9D35EB2DF73E19CBA78B1C5C7C /* UITableViewVibrantCell.swift */,
+				5DAD105DD1DDA7C59C515E0DAFCFA8E9 /* Support Files */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		4FB9E70884941798658F581263A97ECF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA25C81D3C9DC2D6EC18D5B4008FEC0E /* Pods-AppSpanish */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5DAD105DD1DDA7C59C515E0DAFCFA8E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4920ACAD4C7B5A12CC2F320A4E00511E /* SideMenu.modulemap */,
+				E39236F53C30D555342F18B458F616CD /* SideMenu-dummy.m */,
+				0C043EF80C6E080BF1308346E052C1EC /* SideMenu-Info.plist */,
+				54C2787246F69AEFE6E6D5AB7A360AFC /* SideMenu-prefix.pch */,
+				282C3DC921B3EF3ADE8F8DF30A92EA6E /* SideMenu-umbrella.h */,
+				C6AE65A2A190D9BFAEDFCF371CFBF7E5 /* SideMenu.debug.xcconfig */,
+				65F91B328DC5547A3018FF625839DAC8 /* SideMenu.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SideMenu";
+			sourceTree = "<group>";
+		};
+		6CA7450536FE2D623E9E983C606CFA0A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECBDB88640B4F744482F83D715ACD315 /* Localize-Swift.modulemap */,
+				8B6757F5F5461F4D32A62A9577C7B927 /* Localize-Swift-dummy.m */,
+				D4F41757EDE9014005783AD9C70A9F20 /* Localize-Swift-Info.plist */,
+				19662C98BBC9AD2C0A72C16A38D3BB5D /* Localize-Swift-prefix.pch */,
+				932B705F7591575659E3E317FF335A0E /* Localize-Swift-umbrella.h */,
+				3DC9B3786DE99C94FA173BEB888F5C72 /* Localize-Swift.debug.xcconfig */,
+				F899F74BD19FFA2A44622E9E7CD318C7 /* Localize-Swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Localize-Swift";
+			sourceTree = "<group>";
+		};
+		793BB32EA3A36E3609E7EE365885202A /* SQLite.swift */ = {
+			isa = PBXGroup;
+			children = (
+				B863638E0BDAD063B3247A381A74B666 /* standard */,
+				D7E8F1E6BEC3DDC35708D1E43D915737 /* Support Files */,
+			);
+			path = SQLite.swift;
+			sourceTree = "<group>";
+		};
+		A8AD4EF738802D437737DB5ADEB66185 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A6E77D67B6275CF39A02DB0FD4DC7967 /* IBDesignable+Localize.swift */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		B06129399B7F2FF0AFFFB69514EE8702 /* FluentDarkModeKit */ = {
+			isa = PBXGroup;
+			children = (
+				02FF605895C2593DDE37D76B2E345388 /* DarkModeManager.swift */,
+				21B778278A68D29ED98319D8EC4726A4 /* DMDynamicColor.h */,
+				31C1CC2B40D16A6CD151B1E9D5234130 /* DMDynamicColor.m */,
+				D24E3E75D8F2795507E3473FE1A93EB9 /* DMDynamicImage.h */,
+				8DD80BF7A931A5B49614F89E79FCC5EC /* DMDynamicImage.m */,
+				1239A1E1E8FC2EAAD4892E2ED49B8B1C /* DMEnvironmentConfiguration.h */,
+				E3BE41FB26EACD799B40D4DDD40D0960 /* DMEnvironmentConfiguration.m */,
+				65FCA5473D59E71F3D7973D2BD979CAF /* DMNamespace.h */,
+				31FC67724E550F893CA77268B5CFB281 /* DMTraitCollection.h */,
+				C2EC200059C0F6FBAF88D6BE9A731D88 /* DMTraitCollection.m */,
+				7018849DA6719B1DA1176B7B7C36271D /* FluentDarkModeKit.h */,
+				B295BBDA9337D4D9892FC065ADB1227D /* UIActivityIndicatorView+DarkModeKit.swift */,
+				BBE1CB2773CB49CD53C32C2E45962130 /* UIButton+DarkModeKit.swift */,
+				F25F8C9A80557E234C8DF91B79F0804B /* UIColor+DarkModeKit.h */,
+				AB3A8E70141E8FE2F7934ACB3B6460B2 /* UIColor+DarkModeKit.m */,
+				968D6D225EF67620A3AD1B48933C1ACA /* UIImage+DarkModeKit.h */,
+				5D1248063A50C6779CB24C0D5DA4B8A0 /* UIImage+DarkModeKit.m */,
+				8BD1D87F5BE9B8236168DBA4EB7E0F9D /* UIImage+DarkModeKitSwizzling.h */,
+				2A491DBDD3C6169D43D233EF2155F0D6 /* UIImage+DarkModeKitSwizzling.m */,
+				3AC04CD76E00A8B25282DD76279CE39C /* UIImageView+DarkModeKit.swift */,
+				A849BC731C8290E7059A8CCFF32E7AD8 /* UILabel+DarkModeKit.swift */,
+				8EE0C0E26517D977CDDF2A23AC44B4F3 /* UINavigationBar+DarkModeKit.swift */,
+				FFA224B11C07B5A1DB3EF89C05D1B621 /* UIPageControl+DarkModeKit.swift */,
+				7AFFE6B0A3EC702A9A49889B1E0E6AA7 /* UIProgressView+DarkModeKit.swift */,
+				FFF4ED19BC0E1FF2B4D7D546C3333E73 /* UIScrollView+DarkModeKit.swift */,
+				AB9C878E2BC853437FC4FAAC5C3A49A4 /* UISlider+DarkModeKit.swift */,
+				834307109872E0AE7D67340C220AC54A /* UITabBar+DarkModeKit.swift */,
+				B0D37AC78B186CD643092FAC7A52CCCD /* UITableView+DarkModeKit.swift */,
+				87947411F241216D393CF3E03BB9998A /* UITextField+DarkModeKit.swift */,
+				D8532B1383CB78C86361FC5033E4867E /* UITextView+DarkModeKit.swift */,
+				E1ADA9A1A5E90EB26C42D3AA974C99D8 /* UIToolbar+DarkModeKit.swift */,
+				E24968B4382C205B49E97CA3AF7BF368 /* UIView+DarkModeKit.h */,
+				A34E1FB80A91A6F47A30E4A77F2D5242 /* UIView+DarkModeKit.m */,
+				168DE7CFA2F9A5898DAB0B13066A4842 /* UIView+DarkModeKit.swift */,
+				CCA23A6371F5EC1C9C125E77F8253B06 /* UIView+DarkModeKitSwizzling.h */,
+				9B23E2E7010F06430B498B431B229374 /* UIView+DarkModeKitSwizzling.m */,
+				9E98F13C3917C331ED3F74A9FFD8A4C5 /* UIViewController+DarkModeKit.h */,
+				EBEB3DD542BEE25B070B6E5190FB01EA /* UIViewController+DarkModeKit.m */,
+				E9CCFF40998881275567B0A05D232C01 /* Support Files */,
+			);
+			path = FluentDarkModeKit;
+			sourceTree = "<group>";
+		};
+		B863638E0BDAD063B3247A381A74B666 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				B9905258E90B6B7BA72870EB709BF0B6 /* AggregateFunctions.swift */,
+				ECD2958316A424D9F4DF246DD7D71D62 /* Blob.swift */,
+				25077BEA91C01A72EBCC5472141ECDD2 /* Coding.swift */,
+				66DBE5002C6CC6591C28CF65881114D8 /* Collation.swift */,
+				FA779DA918569746D27C305537E17753 /* Connection.swift */,
+				0D4F4AF517AD4E1005D3D6739ACC118D /* CoreFunctions.swift */,
+				7279B5116A7BADA1ADE2855274556805 /* CustomFunctions.swift */,
+				6FBA6556183A5B54893000A7F24AE0D3 /* DateAndTimeFunctions.swift */,
+				1028197D86A081612EE95687CF996464 /* Errors.swift */,
+				AA7F0234852CE26368C9F95808485660 /* Expression.swift */,
+				48EF8D7142046AC4CB95B37BA7136A22 /* Foundation.swift */,
+				509033697C84D2C3B77D5933D836BF61 /* fts3_tokenizer.h */,
+				4EF661E6DC686F10E30A1D46E0BC3DDC /* FTS4.swift */,
+				5B1D1BE46E25C5CBAFC8D62A2ABDA687 /* FTS5.swift */,
+				D30BADACDF4BFE6E1FD7C0B9B57D09DB /* Helpers.swift */,
+				295DAFC592AEE0F4B152E981F6B841CB /* Operators.swift */,
+				73C0140E6BA27050AD9AC8D84821394E /* Query.swift */,
+				44E561CCE813F28613C910CC74352395 /* RTree.swift */,
+				5995FE08EF73AE9A30029BCAEBAB788F /* Schema.swift */,
+				F8C562E74D3EE2F20C5C8A70EA9E75FD /* Setter.swift */,
+				956F5576D29516FD3200E4C441740627 /* SQLite.h */,
+				6B3320FE19DC2910B7AE51851EE3ADB0 /* SQLiteObjc.h */,
+				7D1EDDF9A259ADD36E08E8A8CCCE15CC /* SQLiteObjc.m */,
+				D3F41F76811E67C17DA605F3CE2ABC4F /* Statement.swift */,
+				BF04A6414C57E8E97A8B925BBB15C147 /* Value.swift */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		BA25C81D3C9DC2D6EC18D5B4008FEC0E /* Pods-AppSpanish */ = {
+			isa = PBXGroup;
+			children = (
+				398D77BC9A197503C5A5F2632F982311 /* Pods-AppSpanish.modulemap */,
+				82F4F535ED284C6E33A21C810D5D66B1 /* Pods-AppSpanish-acknowledgements.markdown */,
+				DA7AFA6E7B1BCF673BC853BF1D9AE20E /* Pods-AppSpanish-acknowledgements.plist */,
+				343921570ABF2C46B199640C6806EC0B /* Pods-AppSpanish-dummy.m */,
+				7F9954043B3DE402375E223721A2187F /* Pods-AppSpanish-frameworks.sh */,
+				85D0FE45A9272EA5EA2426E71FC41F13 /* Pods-AppSpanish-Info.plist */,
+				F3060CF6D630A2EF03DA45CE164EB390 /* Pods-AppSpanish-umbrella.h */,
+				0E87DD7A07E7DB53009DC0CFEAFED729 /* Pods-AppSpanish.debug.xcconfig */,
+				0B7228F9FF7C311BF9DD4A60E67D2B31 /* Pods-AppSpanish.release.xcconfig */,
+			);
+			name = "Pods-AppSpanish";
+			path = "Target Support Files/Pods-AppSpanish";
+			sourceTree = "<group>";
+		};
+		C41BB04700D7F66E5306E2023C4EEFC9 /* Localize-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				D7EC4E42A2B2370C301BF0D9DF1E46A4 /* LocalizeSwiftCore */,
+				6CA7450536FE2D623E9E983C606CFA0A /* Support Files */,
+				A8AD4EF738802D437737DB5ADEB66185 /* UIKit */,
+			);
+			path = "Localize-Swift";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				CFE01C4F40C077021D9AB9D578B73F5E /* Pods */,
+				071BCC3207ADDBE8131070BD92CA410E /* Products */,
+				4FB9E70884941798658F581263A97ECF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFE01C4F40C077021D9AB9D578B73F5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B06129399B7F2FF0AFFFB69514EE8702 /* FluentDarkModeKit */,
+				C41BB04700D7F66E5306E2023C4EEFC9 /* Localize-Swift */,
+				4D5BF48569304F372E77A531825C5B21 /* SideMenu */,
+				793BB32EA3A36E3609E7EE365885202A /* SQLite.swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7E8F1E6BEC3DDC35708D1E43D915737 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69453AC367728CF35DC4B69275D2A8C9 /* SQLite.swift.modulemap */,
+				636687FD7D9D574764F817979E4B5099 /* SQLite.swift-dummy.m */,
+				D25E506F3336144043771703014D43BE /* SQLite.swift-Info.plist */,
+				97A7372539379D48CDE375F1BD999C2E /* SQLite.swift-prefix.pch */,
+				07AD14BCF488E9993F1D111D4C06434E /* SQLite.swift-umbrella.h */,
+				979A860AE4A449C07D2F8188D3B44302 /* SQLite.swift.debug.xcconfig */,
+				82ED45C6FC8EC86E52FD42A05175A9DD /* SQLite.swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLite.swift";
+			sourceTree = "<group>";
+		};
+		D7EC4E42A2B2370C301BF0D9DF1E46A4 /* LocalizeSwiftCore */ = {
+			isa = PBXGroup;
+			children = (
+				10F9C5C2A10BE6B53F3A41EAB0DA58F6 /* Localize.swift */,
+				51F783E7C015C8B298EDE84602C2F74D /* Localize_Swift.h */,
+				1917D79A6F07EA98C61C1223D0A6A34A /* String+LocalizeBundle.swift */,
+				1643625F7E207C63DBD6AC7CE5EA4F95 /* String+LocalizedBundleTableName.swift */,
+				CEE654FCCBF0D619461C677AE4F99C5B /* String+LocalizeTableName.swift */,
+			);
+			name = LocalizeSwiftCore;
+			sourceTree = "<group>";
+		};
+		E9CCFF40998881275567B0A05D232C01 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B48BBA64C0C8EA49586F8DC8E03AD727 /* FluentDarkModeKit.modulemap */,
+				E1168B7585603F0343970619BB09B328 /* FluentDarkModeKit-dummy.m */,
+				0E1E0585CD92A98DA404553029EB7706 /* FluentDarkModeKit-Info.plist */,
+				A533B55544144CB1836AA194498AC257 /* FluentDarkModeKit-prefix.pch */,
+				262B02DFC8C394F5D581A1B67D22BB34 /* FluentDarkModeKit-umbrella.h */,
+				2B3E7CFE978110D775F993DB27B64061 /* FluentDarkModeKit.debug.xcconfig */,
+				4AC9769491C3D76CD30A640CAF1248B7 /* FluentDarkModeKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FluentDarkModeKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28761BD3C505CCB36997450A19676357 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D777716F0B6C0754B7B0230531743BC4 /* SideMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662C208CC23094DFA5734EF75C35D83B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5810D3894E9FA37DF074F34D2C228F8 /* DMDynamicColor.h in Headers */,
+				200E7D9F1B5BB8C3C43E23D65BAE9EBE /* DMDynamicImage.h in Headers */,
+				5A2C0E27BFC592E2FF83520810B4FFD2 /* DMEnvironmentConfiguration.h in Headers */,
+				849822D791DC76028D73431296EB629F /* DMNamespace.h in Headers */,
+				76E30279374FDF63E1722EA9DA79C0B8 /* DMTraitCollection.h in Headers */,
+				09226679656F98E98E37E5823062EBDA /* FluentDarkModeKit-umbrella.h in Headers */,
+				2FAA712CFBE24CDE206642FDF7EFBAB5 /* FluentDarkModeKit.h in Headers */,
+				63A1C804362C32F314CBD4C0CA899A57 /* UIColor+DarkModeKit.h in Headers */,
+				C924A6A2AC0159CAF890E59A293EB9AD /* UIImage+DarkModeKit.h in Headers */,
+				81163701080134770635B574575CA7FB /* UIImage+DarkModeKitSwizzling.h in Headers */,
+				A94A06F4998D4626D7981732F3178A75 /* UIView+DarkModeKit.h in Headers */,
+				C88FBE2685288A7CEADC4905BB9CC425 /* UIView+DarkModeKitSwizzling.h in Headers */,
+				002CF53A431F8622BB147EF8D8EBD8A7 /* UIViewController+DarkModeKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E96E7F98796026C6760BA3D13C69C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F75157A5075DECD1D4512F9A6744CA6 /* fts3_tokenizer.h in Headers */,
+				B1D89872AC365C78155FF44EE9F28FEF /* SQLite.h in Headers */,
+				18808F9C139BA0E9059E72980F0BF908 /* SQLite.swift-umbrella.h in Headers */,
+				EF5E32C13CFA779B953F8F81AE3C67D6 /* SQLiteObjc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FB6B0DB03B77AD69664EAA85645E55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7C597A2A5EA33EE6BF5C782E2D18A2 /* Localize-Swift-umbrella.h in Headers */,
+				2C38AE4AB700D998874FD9171B1AAD7E /* Localize_Swift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FDE270BCD2C8681BFB1873267F1A3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10FF5D7FBB010AE8146F6F609DE8815 /* Pods-AppSpanish-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		155BF1269EF587A2F12050C60EFF878E /* FluentDarkModeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A6E7FC252F6FEBBB54725B47720E21 /* Build configuration list for PBXNativeTarget "FluentDarkModeKit" */;
+			buildPhases = (
+				662C208CC23094DFA5734EF75C35D83B /* Headers */,
+				B0A5369FFC9710F089FF74D45F97E290 /* Sources */,
+				5B5B8667B03DAB426420653764911ABD /* Frameworks */,
+				C7F0399F0721B71A477170BE887CC289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FluentDarkModeKit;
+			productName = FluentDarkModeKit;
+			productReference = FE307ED0F10805D68F11347163B5AF36 /* FluentDarkModeKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		340DDF7DB405EDF7F01580175FF090DF /* Localize-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA88FCFE67E28DE1BD0CB14F334932D /* Build configuration list for PBXNativeTarget "Localize-Swift" */;
+			buildPhases = (
+				A2FB6B0DB03B77AD69664EAA85645E55 /* Headers */,
+				11FE8C96A50458DBC32FF8D33DB6929A /* Sources */,
+				FA67018E93D70757E1778585DE5504F6 /* Frameworks */,
+				FEFC8713D2D261054CA52C1185975AF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Localize-Swift";
+			productName = "Localize-Swift";
+			productReference = 2ECF488EFD24A1B916546FB54E5E6827 /* Localize_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E1D3A8318F603D191D121F70943FF08 /* Build configuration list for PBXNativeTarget "SQLite.swift" */;
+			buildPhases = (
+				96E96E7F98796026C6760BA3D13C69C9 /* Headers */,
+				B91BEE056ED605FA41420BC2F6F79D91 /* Sources */,
+				A1DC26BE8ED6BB3E57EC282209CB9866 /* Frameworks */,
+				437C6008F3714B5A8E869C50746FC132 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLite.swift;
+			productName = SQLite.swift;
+			productReference = F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F3ADA536D10967DAE5AD34876EE05E4 /* Pods-AppSpanish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29E0606B7218D7A13643CA7AA74F2D0 /* Build configuration list for PBXNativeTarget "Pods-AppSpanish" */;
+			buildPhases = (
+				E4FDE270BCD2C8681BFB1873267F1A3C /* Headers */,
+				3AF9926BEEE7E041C1E99B5EFEE1BC39 /* Sources */,
+				99051F5D147F16EA91F61D58BD6EC795 /* Frameworks */,
+				B57F6741B7411380C5C5EE5BF51DCC29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10B90BC7A3BDFC6B72ED5CC1908B1BED /* PBXTargetDependency */,
+				C5F9C94698A38E6FDDC81359BD26DE8D /* PBXTargetDependency */,
+				C28D0E1FD68F79D050867AC4F67CCF5A /* PBXTargetDependency */,
+				272423FF712DF7EE75CF9AD944A41465 /* PBXTargetDependency */,
+			);
+			name = "Pods-AppSpanish";
+			productName = "Pods-AppSpanish";
+			productReference = D33A1E385057AD3336910F019A73E9E1 /* Pods_AppSpanish.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92707F899E1CD6FD63DCC66A3882B68C /* Build configuration list for PBXNativeTarget "SideMenu" */;
+			buildPhases = (
+				28761BD3C505CCB36997450A19676357 /* Headers */,
+				8B7A6B51F5DD73DE3F3F294B1BF713BE /* Sources */,
+				D9D87C2BC8D3C4B8382407D4C6B16014 /* Frameworks */,
+				E880A6A8817A45BC1BDE085DEC3399E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideMenu;
+			productName = SideMenu;
+			productReference = 319D06AA0D1D0BA345459C039040A1ED /* SideMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 071BCC3207ADDBE8131070BD92CA410E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				155BF1269EF587A2F12050C60EFF878E /* FluentDarkModeKit */,
+				340DDF7DB405EDF7F01580175FF090DF /* Localize-Swift */,
+				3F3ADA536D10967DAE5AD34876EE05E4 /* Pods-AppSpanish */,
+				C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */,
+				3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		437C6008F3714B5A8E869C50746FC132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57F6741B7411380C5C5EE5BF51DCC29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F0399F0721B71A477170BE887CC289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E880A6A8817A45BC1BDE085DEC3399E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFC8713D2D261054CA52C1185975AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11FE8C96A50458DBC32FF8D33DB6929A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BB072843BA843D7B004A1D39EFE4B1 /* IBDesignable+Localize.swift in Sources */,
+				417EE23ABB074BA2908A1FB496152004 /* Localize-Swift-dummy.m in Sources */,
+				931B2996C84AB5753E091CABF1BEC013 /* Localize.swift in Sources */,
+				40008C8D5FAC59482281F2947B478AC0 /* String+LocalizeBundle.swift in Sources */,
+				2833C881CB49BE50134ACC24D9720D75 /* String+LocalizedBundleTableName.swift in Sources */,
+				175E39C5781D07F1AA781153D22544C9 /* String+LocalizeTableName.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AF9926BEEE7E041C1E99B5EFEE1BC39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D41A92EE1AAF1134F5F1F96982496E /* Pods-AppSpanish-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7A6B51F5DD73DE3F3F294B1BF713BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D22BB8C279DC03EA91BFE3F5412477 /* Deprecations.swift in Sources */,
+				4E88B70410F6837FBD463EA4B6C33155 /* Extensions.swift in Sources */,
+				C798DA148F7F666F393F2009DDF73E35 /* Initializable.swift in Sources */,
+				D1BD7393C7934049B3E51D9C5A5CD8A0 /* Print.swift in Sources */,
+				905A503F069C27E841BAD9F4EFD4F1AF /* Protected.swift in Sources */,
+				08B5B89F28224381711F45A680C292D9 /* SideMenu-dummy.m in Sources */,
+				890FF25D0CCFF9BADECBA64DCCEFF4FF /* SideMenuAnimationController.swift in Sources */,
+				8C06632AA14D12278B1277AC0CC6A0B2 /* SideMenuInteractionController.swift in Sources */,
+				77AF2098DDCCAAE0CE4A20725C466905 /* SideMenuManager.swift in Sources */,
+				3846AFE38D1B63A9F0D9073C4ABC6DAA /* SideMenuNavigationController.swift in Sources */,
+				27D830F1CAC60B99CC0A135F583BFFF2 /* SideMenuPresentationController.swift in Sources */,
+				3E18B004D34ED5441A193684EEB25BD3 /* SideMenuPresentationStyle.swift in Sources */,
+				2ED518A3FA8DCBE08E621AC5C32844A9 /* SideMenuPushCoordinator.swift in Sources */,
+				09A0A5D3733F69E93F553ABBCF02FB77 /* SideMenuTransitionController.swift in Sources */,
+				C96A55C2A869A97AC4CA628A7F2A2A21 /* UITableViewVibrantCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A5369FFC9710F089FF74D45F97E290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC0E3F2F2EF1FE72C7525CB14CFB3F5 /* DarkModeManager.swift in Sources */,
+				262B08D5552556B1314D291CC74C7A6A /* DMDynamicColor.m in Sources */,
+				DC35DED47CD2DA273DFE695B6D755CF2 /* DMDynamicImage.m in Sources */,
+				B58BFAEF8C2359B82C7210295DE083A1 /* DMEnvironmentConfiguration.m in Sources */,
+				5E8E100AABBDB2BC12F2128597B6E512 /* DMTraitCollection.m in Sources */,
+				080F64036E09C1B18DA4ACD0B5AD2FD5 /* FluentDarkModeKit-dummy.m in Sources */,
+				16BF9DD8DAEBDB44D3B1A010E45BB611 /* UIActivityIndicatorView+DarkModeKit.swift in Sources */,
+				2C32320502711AD85CEFA784A296DF9B /* UIButton+DarkModeKit.swift in Sources */,
+				1D6AC02D8AD1A0AC30D2D126EE468DD4 /* UIColor+DarkModeKit.m in Sources */,
+				9716D25F83E0B970644E6FCBF9B1E6BF /* UIImage+DarkModeKit.m in Sources */,
+				7D7D6EB0F1088F113EC2551A3FE386F9 /* UIImage+DarkModeKitSwizzling.m in Sources */,
+				E6185FE6512B136C3B83DAB7572CEEF4 /* UIImageView+DarkModeKit.swift in Sources */,
+				9FE8C5E995B63208FFE6840697E05088 /* UILabel+DarkModeKit.swift in Sources */,
+				5ACC83E935374D7CF0F858240015E149 /* UINavigationBar+DarkModeKit.swift in Sources */,
+				E925037BD42904125EC35FF3E14EAF22 /* UIPageControl+DarkModeKit.swift in Sources */,
+				A8F34242E4AE950559355636C4AB122D /* UIProgressView+DarkModeKit.swift in Sources */,
+				AF80C83338AA2740EA537D7DF46BD259 /* UIScrollView+DarkModeKit.swift in Sources */,
+				507EDE579AD2ACB13B34EC35F3D754E1 /* UISlider+DarkModeKit.swift in Sources */,
+				C89621A799EE99C34B8AD47E68C9972D /* UITabBar+DarkModeKit.swift in Sources */,
+				D1E9B5FDF06504E3EFF9D2BAB049CF0B /* UITableView+DarkModeKit.swift in Sources */,
+				2824177B8E9094D3EF1A65530414FDE9 /* UITextField+DarkModeKit.swift in Sources */,
+				F2EB1770EC859BEDB11A38FE6D93BA92 /* UITextView+DarkModeKit.swift in Sources */,
+				E978507CCB414C5203F3C4E41044A575 /* UIToolbar+DarkModeKit.swift in Sources */,
+				F4078B03FC0455D21647C635A0AE29FD /* UIView+DarkModeKit.m in Sources */,
+				F7D0BC57E31099227812B909E776F9FA /* UIView+DarkModeKit.swift in Sources */,
+				423E82205743F7BC136CDEF2B5FA30D5 /* UIView+DarkModeKitSwizzling.m in Sources */,
+				E62CB8CBD8984E43DDC31D8A39A2E3FB /* UIViewController+DarkModeKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91BEE056ED605FA41420BC2F6F79D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3A040DEACD188FBA57F28AFAADB057 /* AggregateFunctions.swift in Sources */,
+				2C4F38367FEF4F7C72224D9EB87B7F71 /* Blob.swift in Sources */,
+				188E0D4F7200FED3C7A1245F9F913072 /* Coding.swift in Sources */,
+				EE966B1A61C1960A3BBC22A783C27272 /* Collation.swift in Sources */,
+				16E32D96D226F5CA5ECE9021B4448A2C /* Connection.swift in Sources */,
+				1B13B36FAC4CB8F57794A2B328FDA679 /* CoreFunctions.swift in Sources */,
+				C64E97D5FC0802B08D7CA36AEC74A422 /* CustomFunctions.swift in Sources */,
+				A966409E4EB7EB56CBE6C9DFA0FC5B94 /* DateAndTimeFunctions.swift in Sources */,
+				5D1D42009E941070E4EDDE947A881181 /* Errors.swift in Sources */,
+				13DC37325FD7C005D5757A7A24879CFB /* Expression.swift in Sources */,
+				348B481DC980D7B5252368E2A54CFBF9 /* Foundation.swift in Sources */,
+				03F6349BC7F1C0F3BDFD63082CCE32DB /* FTS4.swift in Sources */,
+				A42659683986F68D9D4F244F1DB71C2F /* FTS5.swift in Sources */,
+				79E43357E56514CD6FE8A6F4B1D28C2E /* Helpers.swift in Sources */,
+				5AB7AA2D47C8BD4ED779FB58ADD2EB19 /* Operators.swift in Sources */,
+				444D048C8F52A4002F068AE6198AA5B7 /* Query.swift in Sources */,
+				4E3EDCB1C27B3725FD8AEFD7E61B9E17 /* RTree.swift in Sources */,
+				F6BB6C198A2522FF0633261964EB2A24 /* Schema.swift in Sources */,
+				D6E6E2AA38E0E6B0B7D1E0891F4FD12D /* Setter.swift in Sources */,
+				67F339D752FFF174485AB6F96EC6FA7E /* SQLite.swift-dummy.m in Sources */,
+				4A50D35274D871E14260F93489F87E32 /* SQLiteObjc.m in Sources */,
+				31AAD13A75FA67A504E265924E542827 /* Statement.swift in Sources */,
+				5BA891FB2BE2492499DD30FAD3D2F399 /* Value.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10B90BC7A3BDFC6B72ED5CC1908B1BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FluentDarkModeKit;
+			target = 155BF1269EF587A2F12050C60EFF878E /* FluentDarkModeKit */;
+			targetProxy = 92B72CEEAC052F1CB8DA4D6EEB8BEDB0 /* PBXContainerItemProxy */;
+		};
+		272423FF712DF7EE75CF9AD944A41465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenu;
+			target = C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */;
+			targetProxy = 06BE0DAD2BF20CE5ABCA2ABC3D0844D6 /* PBXContainerItemProxy */;
+		};
+		C28D0E1FD68F79D050867AC4F67CCF5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLite.swift;
+			target = 3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */;
+			targetProxy = E403FCECD491FA02CE902EEEC28E6250 /* PBXContainerItemProxy */;
+		};
+		C5F9C94698A38E6FDDC81359BD26DE8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Localize-Swift";
+			target = 340DDF7DB405EDF7F01580175FF090DF /* Localize-Swift */;
+			targetProxy = 7E1523F4BD703D01A92690E1B90DDCFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FC98422908F1DD0D387A15F641DABCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65F91B328DC5547A3018FF625839DAC8 /* SideMenu.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/SideMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		15418D497C951AE519FE18044E619CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82ED45C6FC8EC86E52FD42A05175A9DD /* SQLite.swift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/SQLite.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		296B6A122D4DDB50F57AD87F217DE7A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6AE65A2A190D9BFAEDFCF371CFBF7E5 /* SideMenu.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/SideMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		611D538A22FFE14BB68CBE8E0736C700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC9769491C3D76CD30A640CAF1248B7 /* FluentDarkModeKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FluentDarkModeKit/FluentDarkModeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FluentDarkModeKit/FluentDarkModeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FluentDarkModeKit/FluentDarkModeKit.modulemap";
+				PRODUCT_MODULE_NAME = FluentDarkModeKit;
+				PRODUCT_NAME = FluentDarkModeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C6178559BD9074C26E073DF5769DB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6FE594D3975D89F427F5BADE89FBA9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 979A860AE4A449C07D2F8188D3B44302 /* SQLite.swift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/SQLite.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FEE6D8157E5D604461213A3C6BF4822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B7228F9FF7C311BF9DD4A60E67D2B31 /* Pods-AppSpanish.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppSpanish/Pods-AppSpanish-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppSpanish/Pods-AppSpanish.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE80CB4FA1E33C7D2DF59EE14777DE7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E87DD7A07E7DB53009DC0CFEAFED729 /* Pods-AppSpanish.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppSpanish/Pods-AppSpanish-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppSpanish/Pods-AppSpanish.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B02C1A63AAF99008ADFB47794AA08173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC9B3786DE99C94FA173BEB888F5C72 /* Localize-Swift.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Localize-Swift/Localize-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Localize-Swift/Localize-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Localize-Swift/Localize-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Localize_Swift;
+				PRODUCT_NAME = Localize_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E62D4352E348F41FE600AEE4709F27EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B3E7CFE978110D775F993DB27B64061 /* FluentDarkModeKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FluentDarkModeKit/FluentDarkModeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FluentDarkModeKit/FluentDarkModeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FluentDarkModeKit/FluentDarkModeKit.modulemap";
+				PRODUCT_MODULE_NAME = FluentDarkModeKit;
+				PRODUCT_NAME = FluentDarkModeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA8B26CA0E8D09B89633E476795859B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F899F74BD19FFA2A44622E9E7CD318C7 /* Localize-Swift.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Localize-Swift/Localize-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Localize-Swift/Localize-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Localize-Swift/Localize-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Localize_Swift;
+				PRODUCT_NAME = Localize_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CA88FCFE67E28DE1BD0CB14F334932D /* Build configuration list for PBXNativeTarget "Localize-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02C1A63AAF99008ADFB47794AA08173 /* Debug */,
+				FA8B26CA0E8D09B89633E476795859B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6178559BD9074C26E073DF5769DB42 /* Debug */,
+				5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E1D3A8318F603D191D121F70943FF08 /* Build configuration list for PBXNativeTarget "SQLite.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE594D3975D89F427F5BADE89FBA9D3 /* Debug */,
+				15418D497C951AE519FE18044E619CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A6E7FC252F6FEBBB54725B47720E21 /* Build configuration list for PBXNativeTarget "FluentDarkModeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E62D4352E348F41FE600AEE4709F27EB /* Debug */,
+				611D538A22FFE14BB68CBE8E0736C700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92707F899E1CD6FD63DCC66A3882B68C /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				296B6A122D4DDB50F57AD87F217DE7A5 /* Debug */,
+				0FC98422908F1DD0D387A15F641DABCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A29E0606B7218D7A13643CA7AA74F2D0 /* Build configuration list for PBXNativeTarget "Pods-AppSpanish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE80CB4FA1E33C7D2DF59EE14777DE7D /* Debug */,
+				7FEE6D8157E5D604461213A3C6BF4822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

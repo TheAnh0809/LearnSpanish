@@ -1,0 +1,74 @@
+
+/* Class = "UILabel"; text = "Choose your\nlanguage"; ObjectID = "4Uf-yU-zoN"; */
+"4Uf-yU-zoN.text" = "Dilinizi\nseçin";
+
+/* Class = "UILabel"; text = "Select the language to get started."; ObjectID = "6ah-re-DeN"; */
+"6ah-re-DeN.text" = "Başlamak için dili seçin.
+";
+
+/* Class = "UILabel"; text = "Other Settings"; ObjectID = "6nA-6F-jK3"; */
+"6nA-6F-jK3.text" = "Diğer ayarlar
+";
+
+/* Class = "UILabel"; text = "Select a topic\nyou want to learn"; ObjectID = "AjJ-XI-Ub2"; */
+"AjJ-XI-Ub2.text" = "Öğrenmek istediğiniz\nbir konu seçin";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "DPf-i1-sOc"; */
+"DPf-i1-sOc.text" = "Ayarlar";
+
+/* Class = "UILabel"; text = "Welcome to Learn Spanish"; ObjectID = "DpD-GP-2Yd"; */
+"DpD-GP-2Yd.text" = "İspanyolca Öğrenmeye Hoş Geldiniz";
+
+/* Class = "UILabel"; text = "Phrases"; ObjectID = "EU9-p4-DWV"; */
+"EU9-p4-DWV.text" = "İfadeler";
+
+/* Class = "UIButton"; normalTitle = "   Dark mode"; ObjectID = "FZe-CG-edA"; */
+"FZe-CG-edA.normalTitle" = "   Karanlık mod ";
+
+/* Class = "UILabel"; text = "Learn Spanish"; ObjectID = "HBJ-Wl-sn9"; */
+"HBJ-Wl-sn9.text" = "İspanyolca öğren";
+
+/* Class = "UILabel"; text = "To start learning Spanish effectively!"; ObjectID = "JoN-0o-cd5"; */
+"JoN-0o-cd5.text" = "Etkili İspanyolca öğrenmeye başlamak için!";
+
+/* Class = "UIButton"; normalTitle = "   Rate this app"; ObjectID = "KrV-Sw-65W"; */
+"KrV-Sw-65W.normalTitle" = "   Bu uygulamayı oyla";
+
+/* Class = "UILabel"; text = "Hola!"; ObjectID = "ORH-cO-Vnf"; */
+"ORH-cO-Vnf.text" = "Hola!";
+
+/* Class = "UIButton"; normalTitle = "   Language"; ObjectID = "TVi-aw-pCt"; */
+"TVi-aw-pCt.normalTitle" = "   Dil";
+
+/* Class = "UILabel"; text = "Words"; ObjectID = "Vtu-JC-219"; */
+"Vtu-JC-219.text" = "Kelimeler";
+
+/* Class = "UIButton"; normalTitle = "   Bookmark words"; ObjectID = "bhq-TX-JBr"; */
+"bhq-TX-JBr.normalTitle" = "   Yer imi kelimeleri
+";
+
+/* Class = "UILabel"; text = "General"; ObjectID = "fbg-Mp-PFI"; */
+"fbg-Mp-PFI.text" = "Genel";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "gQ1-C5-FjK"; */
+"gQ1-C5-FjK.text" = "Dil";
+
+/* Class = "UIButton"; normalTitle = "   Privacy policy"; ObjectID = "h9y-uf-hCP"; */
+"h9y-uf-hCP.normalTitle" = "   Gizlilik Politikası";
+
+/* Class = "UILabel"; text = "Learn Spanish"; ObjectID = "iSZ-PK-tSV"; */
+"iSZ-PK-tSV.text" = "İspanyolca öğren";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jpu-kE-cTi"; */
+"jpu-kE-cTi.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "u1h-nz-XSf"; */
+"u1h-nz-XSf.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Let get started"; ObjectID = "uPc-Yi-Je6"; */
+"uPc-Yi-Je6.normalTitle" = "Başlayalım";
+
+/* Class = "UIButton"; normalTitle = "   About App"; ObjectID = "uea-fV-HDm"; */
+"uea-fV-HDm.normalTitle" = "   Uygulama hakkında";
+"Change language" = "Dili değiştir";
+"To changing language you need to restart application, do you want to restart?" = "Dili değiştirmek için uygulamayı yeniden başlatmanız gerekiyor, yeniden başlatmak istiyor musunuz?";

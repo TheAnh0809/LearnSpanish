@@ -1,0 +1,85 @@
+
+/* Class = "UILabel"; text = "Choose your\nlanguage"; ObjectID = "4Uf-yU-zoN"; */
+"Choose your\nlanguage" = "Scegli la tua\nlingua";
+
+/* Class = "UILabel"; text = "Select the language to get started."; ObjectID = "6ah-re-DeN"; */
+"Select the language to get started." = "Seleziona la lingua per iniziare.";
+
+/* Class = "UILabel"; text = "Other Settings"; ObjectID = "6nA-6F-jK3"; */
+"Other Settings"= "Altre impostazioni";
+
+/* Class = "UILabel"; text = "Select a topic\nyou want to learn"; ObjectID = "AjJ-XI-Ub2"; */
+"Select a topic\nyou want to learn" = "Seleziona un argomento\nche vuoi imparare";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "DPf-i1-sOc"; */
+"Settings" = "Impostazioni";
+
+/* Class = "UILabel"; text = "Welcome to Learn Spanish"; ObjectID = "DpD-GP-2Yd"; */
+"Welcome to Learn Spanish" = "Benvenuti a imparare lo spagnolo";
+
+/* Class = "UILabel"; text = "Phrases"; ObjectID = "EU9-p4-DWV"; */
+"Phrases" = "Frasi";
+
+/* Class = "UIButton"; normalTitle = "   Dark mode"; ObjectID = "FZe-CG-edA"; */
+"   Dark mode" = "   Modalità scura";
+
+/* Class = "UILabel"; text = "Learn Spanish"; ObjectID = "HBJ-Wl-sn9"; */
+"Learn Spanish" = "Impara lo spagnolo";
+
+/* Class = "UILabel"; text = "To start learning Spanish effectively!"; ObjectID = "JoN-0o-cd5"; */
+"To start learning Spanish effectively!" = "Per iniziare a imparare lo spagnolo in modo efficace!";
+
+/* Class = "UIButton"; normalTitle = "   Rate this app"; ObjectID = "KrV-Sw-65W"; */
+"KrV-Sw-65W.normalTitle" = "   Valuta questa applicazione";
+
+/* Class = "UILabel"; text = "Hola!"; ObjectID = "ORH-cO-Vnf"; */
+"ORH-cO-Vnf.text" = "Hola!";
+
+/* Class = "UIButton"; normalTitle = "   Language"; ObjectID = "TVi-aw-pCt"; */
+"   Language" = "   Linguaggio";
+
+/* Class = "UILabel"; text = "Words"; ObjectID = "Vtu-JC-219"; */
+"Words"= "Parole";
+
+/* Class = "UIButton"; normalTitle = "   Bookmark words"; ObjectID = "bhq-TX-JBr"; */
+"   Bookmark words" = "   Segnalibro parole";
+
+/* Class = "UILabel"; text = "General"; ObjectID = "fbg-Mp-PFI"; */
+"General"= "Generale";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "gQ1-C5-FjK"; */
+"Language"= "Linguaggio";
+
+/* Class = "UIButton"; normalTitle = "   Privacy policy"; ObjectID = "h9y-uf-hCP"; */
+"h9y-uf-hCP.normalTitle" = "   Politica sulla riservatezza";
+
+/* Class = "UILabel"; text = "Learn Spanish"; ObjectID = "iSZ-PK-tSV"; */
+"Learn Spanish" = "Impara lo spagnolo";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jpu-kE-cTi"; */
+"jpu-kE-cTi.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "u1h-nz-XSf"; */
+"u1h-nz-XSf.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Let get started"; ObjectID = "uPc-Yi-Je6"; */
+"Let get started" = "Cominciamo";
+
+/* Class = "UIButton"; normalTitle = "   About App"; ObjectID = "uea-fV-HDm"; */
+"   About App" = "Informazioni sull'app";
+"Change language" = "Cambia lingua";
+"To changing language you need to restart application, do you want to restart?" = "Per cambiare lingua devi riavviare l'applicazione, vuoi riavviare?";
+"Search ?" = " Ricerca  ？";
+"Topic" = "Argomento";
+"Accommodation" = "Alloggio";
+"Chinese" = "Cinese";
+"English"= "Inglese";
+"French"= "Francese";
+"German"= "Tedesco";
+"Itaian" = "Itaian";
+"Japanise"= "Japanise";
+"Korean" = "Coreano";
+"Portuguese"= "Portoghese";
+"Russian"= "Russo";
+"Turkish"= "Turco";
+"Bookmark words/phrases" = "Aggiungi parole/frasi ai segnalibri";

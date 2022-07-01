@@ -1,0 +1,91 @@
+
+/* Class = "UILabel"; text = "Choose your\nlanguage"; ObjectID = "4Uf-yU-zoN"; */
+"Choose your\nlanguage" = "Выберите свой\nязык
+";
+
+/* Class = "UILabel"; text = "Select the language to get started."; ObjectID = "6ah-re-DeN"; */
+"Select the language to get started."= "Выберите язык, чтобы начать
+.";
+
+/* Class = "UILabel"; text = "Other Settings"; ObjectID = "6nA-6F-jK3"; */
+"Other Settings" = "Другие настройки";
+
+/* Class = "UILabel"; text = "Select a topic\nyou want to learn"; ObjectID = "AjJ-XI-Ub2"; */
+"Select a topic\nyou want to learn" = "Выберите тему\nвы хотите изучить
+";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "DPf-i1-sOc"; */
+"Settings" = "Настройки";
+
+/* Class = "UILabel"; text = "Welcome to Learn Spanish"; ObjectID = "DpD-GP-2Yd"; */
+"Welcome to Learn Spanish" = "Добро пожаловать на изучение испанского
+";
+
+/* Class = "UILabel"; text = "Phrases"; ObjectID = "EU9-p4-DWV"; */
+"Phrases"= "Фразы";
+
+/* Class = "UIButton"; normalTitle = "   Dark mode"; ObjectID = "FZe-CG-edA"; */
+"   Dark mode" = "   Темный режим";
+
+/* Class = "UILabel"; text = "Learn Spanish"; ObjectID = "HBJ-Wl-sn9"; */
+"Learn Spanish" = "Учить испанский";
+
+/* Class = "UILabel"; text = "To start learning Spanish effectively!"; ObjectID = "JoN-0o-cd5"; */
+"To start learning Spanish effectively!" = "Чтобы начать эффективное изучение испанского!";
+
+/* Class = "UIButton"; normalTitle = "   Rate this app"; ObjectID = "KrV-Sw-65W"; */
+"KrV-Sw-65W.normalTitle" = "   Оцени это приложение";
+
+/* Class = "UILabel"; text = "Hola!"; ObjectID = "ORH-cO-Vnf"; */
+"ORH-cO-Vnf.text" = "Hola!";
+
+/* Class = "UIButton"; normalTitle = "   Language"; ObjectID = "TVi-aw-pCt"; */
+"   Language" = "   Язык";
+
+/* Class = "UILabel"; text = "Words"; ObjectID = "Vtu-JC-219"; */
+"Words" = "Слова";
+
+/* Class = "UIButton"; normalTitle = "   Bookmark words"; ObjectID = "bhq-TX-JBr"; */
+"   Bookmark words" = "   Добавить слова в закладки";
+
+/* Class = "UILabel"; text = "General"; ObjectID = "fbg-Mp-PFI"; */
+"General" = "генеральный";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "gQ1-C5-FjK"; */
+"Language"= "Язык";
+
+/* Class = "UIButton"; normalTitle = "   Privacy policy"; ObjectID = "h9y-uf-hCP"; */
+"h9y-uf-hCP.normalTitle" = "   Политика конфиденциальности
+";
+
+/* Class = "UILabel"; text = "Learn Spanish"; ObjectID = "iSZ-PK-tSV"; */
+"Learn Spanish" = "Учить испанский";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jpu-kE-cTi"; */
+"jpu-kE-cTi.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "u1h-nz-XSf"; */
+"u1h-nz-XSf.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Let get started"; ObjectID = "uPc-Yi-Je6"; */
+"Let get started"= "Давай начнем";
+
+/* Class = "UIButton"; normalTitle = "   About App"; ObjectID = "uea-fV-HDm"; */
+"   About App"= "   О приложении";
+"Change language" = "изменение языка";
+"To changing language you need to restart application, do you want to restart?" = "Для смены языка вам необходимо перезапустить приложение, вы хотите перезапустить?";
+"Search ?" = " Поиск  ？";
+"Topic" = "Тема";
+"Accommodation" = "Проживание";
+
+"Chinese" = "Китайский";
+"English"= "Английский";
+"French"= "Французский";
+"German"= "Немецкий";
+"Itaian" = "Итальянский";
+"Japanise"= "Японизация";
+"Korean" = "Корейский";
+"Portuguese"= "Португальский";
+"Russian"= "Русский";
+"Turkish"= "Турецкий";
+"Bookmark words/phrases" = "Добавить слова/фразы в закладки";
